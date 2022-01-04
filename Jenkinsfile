@@ -1,6 +1,6 @@
 pipeline {
     
-    agent { label 'main' }
+    agent any
 
     tools{
             jdk 'Java8'
